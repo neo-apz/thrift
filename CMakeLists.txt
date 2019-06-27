@@ -121,4 +121,6 @@ if(BUILD_HASKELL)
     endif()
 endif()
 
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/myexample)
+
 PRINT_CONFIG_SUMMARY()
